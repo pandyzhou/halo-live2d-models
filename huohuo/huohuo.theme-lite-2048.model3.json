@@ -1,0 +1,51 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "huohuo.moc3",
+		"Textures": [
+			"huohuo.2048/texture_00.png",
+			"huohuo.2048/texture_01.png",
+			"huohuo.2048/texture_02.png",
+			"huohuo.2048/texture_03.png"
+		],
+		"Expressions": [
+			{
+				"Name": "angry",
+				"File": "angry.exp3.json"
+			},
+			{
+				"Name": "cry",
+				"File": "cry.exp3.json"
+			},
+			{
+				"Name": "baozhen",
+				"File": "baozhen.exp3.json"
+			},
+			{
+				"Name": "qizi1",
+				"File": "qizi1.exp3.json"
+			},
+			{
+				"Name": "qizi2",
+				"File": "qizi2.exp3.json"
+			},
+			{
+				"Name": "white eyes",
+				"File": "white eyes.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
